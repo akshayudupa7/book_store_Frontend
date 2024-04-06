@@ -15,10 +15,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
-            path={`/course`}
+            path={`https://meek-zabaione-1970ee.netlify.app/course`}
             element={authUser ? <Courses /> : <Navigate to="/signup" />}
           />
-          <Route path={`/signup`} element={<Signup />} />
+          <Route path={`https://meek-zabaione-1970ee.netlify.app/signup`} element={<Signup />} />
         </Routes>
         <Toaster />
       </div>
