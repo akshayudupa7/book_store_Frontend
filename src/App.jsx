@@ -15,10 +15,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route
-            path={`https://vercel.com/akshay-us-projects/course`}
+            path={`book-store-frontend-phi.vercel.app
+/course`}
             element={authUser ? <Courses /> : <Navigate to="/signup" />}
           />
-          <Route path={`https://vercel.com/akshay-us-projects/signup`} element={<Signup />} />
+          <Route path={`book-store-frontend-phi.vercel.app/signup`} element={<Signup />} />
         </Routes>
         <Toaster />
       </div>
